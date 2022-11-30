@@ -10,9 +10,9 @@ def process_file(file, choices=[True, False, False, False, False]):
     ''' Takes as input a pdf file, store the file and run the pipeline '''
 
     dir_name = file.name[:-4]
-    if not os.path.exists("./HummingBird_prototype/processed_files/"+dir_name):
-        os.mkdir("./HummingBird_prototype/processed_files/"+dir_name)
-        with open(os.path.join("./HummingBird_prototype/processed_files/"+dir_name,file.name),"wb") as f:
+    if not os.path.exists("./NER-Medical-Document/processed_files/"+dir_name):
+        os.mkdir("./NER-Medical-Document/processed_files/"+dir_name)
+        with open(os.path.join("./NER-Medical-Document/processed_files/"+dir_name,file.name),"wb") as f:
             f.write(file.getbuffer())
     extract_images_from_pdf(file.name)
     if file.name.endswith('.pdf'):
@@ -44,7 +44,7 @@ def run():
   ''' Main function to run the app '''
 
   # set the title
-  streamlit.title('HummingBird Prototype')
+  streamlit.title('Prototype')
 
   # add a file explorer to load multiple files
   uploaded_files = streamlit.file_uploader('Upload your file here', type=['pdf', 'png', 'jpg'], accept_multiple_files=True)
@@ -84,11 +84,11 @@ def run():
         with col1:
             uploaded_file = [uploaded_file for uploaded_file in uploaded_files if uploaded_file.name == option][0]
             file_name = uploaded_file.name[:-4]
-            if not os.path.exists("./HummingBird_prototype/processed_files/"+file_name+"/"+file_name+"_highlighted.pdf"):
+            if not os.path.exists("./NER-Medical-Document/processed_files/"+file_name+"/"+file_name+"_highlighted.pdf"):
                 streamlit.write("The file has not been processed yet")
             else:
                 file_name = uploaded_file.name
-                display_pdf("./HummingBird_prototype/processed_files/"+file_name[:-4]+"/"+file_name[:-4]+"_highlighted.pdf")
+                display_pdf("./NER-Medical-Document/processed_files/"+file_name[:-4]+"/"+file_name[:-4]+"_highlighted.pdf")
         with col2:
             i = 0
             for key, value in codes.items():
