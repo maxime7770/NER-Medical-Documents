@@ -1,0 +1,153 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "entitymentions": [
+        {
+          "docTokenBegin": 8,
+          "docTokenEnd": 9,
+          "tokenBegin": 8,
+          "tokenEnd": 9,
+          "text": "John",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 54,
+          "ner": "PERSON"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "above",
+          "originalText": "above",
+          "lemma": "above",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 9,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "mentioned",
+          "originalText": "mentioned",
+          "lemma": "mention",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 19,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "effects",
+          "originalText": "effects",
+          "lemma": "effect",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 27,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 32,
+          "pos": "VBP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "been",
+          "originalText": "been",
+          "lemma": "be",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "observed",
+          "originalText": "observed",
+          "lemma": "observe",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 46,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 49,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "John",
+          "originalText": "John",
+          "lemma": "John",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 54,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 57,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "Apple",
+          "originalText": "Apple",
+          "lemma": "Apple",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 63,
+          "pos": "NNP",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ]
+}
