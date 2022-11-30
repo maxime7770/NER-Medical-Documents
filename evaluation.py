@@ -64,7 +64,7 @@ def extraction(filename: str, choices: list[bool], use_streamlit: bool = True):
         Outputs a dictionary with the entities' names as keys and the list of entities as values
     '''
     tokenizer_split_sentences = nltk.data.load('tokenizers/punkt/english.pickle')
-    root = './HummingBird_prototype/processed_files/' + filename[:-4] + '/'
+    root = './NER-Medical-Document/processed_files/' + filename[:-4] + '/'
     results = {}
     models = {}
     limit = 20 # maximum number of files to process, used for testing if the pdf file is too big
@@ -74,7 +74,7 @@ def extraction(filename: str, choices: list[bool], use_streamlit: bool = True):
     predictor = Predictor.from_path(model_url)
 
     if choices[0]:
-        tagger_chemicals: SequenceTagger = SequenceTagger.load('./HummingBird_prototype/training_results/best-model.pt')
+        tagger_chemicals: SequenceTagger = SequenceTagger.load('./NER-Medical-Document/training_results/best-model.pt')
         models[0] = tagger_chemicals
 
     if choices[1]:
@@ -101,22 +101,22 @@ def extraction(filename: str, choices: list[bool], use_streamlit: bool = True):
             tokenizer_neg = AutoTokenizer.from_pretrained("bvanaken/clinical-assertion-negation-bert")
             model_neg = AutoModelForSequenceClassification.from_pretrained("bvanaken/clinical-assertion-negation-bert")
             pipeline_neg = TextClassificationPipeline(model=model_neg, tokenizer=tokenizer_neg)
-            model_hunflair = TextClassifier.load('./HummingBird_prototype/training_results/flair_bert/best-model.pt')
+            model_hunflair = TextClassifier.load('./NER-Medical-Document/training_results/flair_bert/best-model.pt')
             models[3] = model_hunflair
 
         elif method == 3:
             # Sentence classification: use the InferenceADE class to design a voting classifier
-            model_scibert_name = 'HummingBird_prototype/training_results/scibert_scivocab_uncased'
+            model_scibert_name = 'NER-Medical-Document/training_results/scibert_scivocab_uncased'
             model_scibert = BertForSequenceClassification.from_pretrained(model_scibert_name)
             tokenizer_scibert = AutoTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
             pipeline_scibert = pipeline("text-classification", model = model_scibert, tokenizer = tokenizer_scibert)
 
-            model_biolink_name = 'HummingBird_prototype/training_results/BioLinkBERT-base'
+            model_biolink_name = 'NER_Medical-Document/training_results/BioLinkBERT-base'
             model_biolink = BertForSequenceClassification.from_pretrained(model_biolink_name)
             tokenizer_biolink = AutoTokenizer.from_pretrained('michiyasunaga/BioLinkBERT-base')
             pipeline_biolink = pipeline("text-classification", model = model_biolink, tokenizer = tokenizer_biolink)
 
-            model_hunflair = TextClassifier.load('./HummingBird_prototype/training_results/flair_bert/best-model.pt')
+            model_hunflair = TextClassifier.load('./NER-Medical-Document/training_results/flair_bert/best-model.pt')
 
             models[3] = InferenceADE(pipeline_scibert, pipeline_biolink, model_hunflair)
 
@@ -267,7 +267,7 @@ def extraction(filename: str, choices: list[bool], use_streamlit: bool = True):
 def higlight(filename: str, choices: list[bool]):
     ''' Highlight the entities chosen in the pdf file whose name is 'filename' '''
 
-    root = './HummingBird_prototype/processed_files/' + filename[:-4] + '/'
+    root = './NER-Medical-Document/processed_files/' + filename[:-4] + '/'
     pdf_input = fitz.open(root+filename)
     results = extraction(filename, choices)
     streamlit.write('Highlighting entities...')
