@@ -4,7 +4,7 @@
 ## Installation
 
 
-If you want to execute one of the files, you should do it from the parent directory of the HummingBird_prototype directory. You can for example create a new python environment, place the prototype folder in it, and run it from the environment directory.
+If you want to execute one of the files, you should do it from the parent directory of this repository. You can for example create a new python environment, place the prototype folder in it, and run it from the environment directory.
 
 Detailed steps to avoid any problem:
 
@@ -18,10 +18,10 @@ python3 -m venv ./test_env
 ``` bash 
 source test_env/bin/activate
 ```
-- Drag the ‘HummingBird_prototype’ folder in your working directory
+- Drag this repository folder in your working directory
 - Install the dependencies: 
 ```bash 
-pip3 install -r HummingBird_prototype/requirements.py
+pip3 install -r NER-Medical-Document/requirements.py
 ```
 - If you have a warning telling you to upgrade pip, do it
 - Deactivate your environment: 
@@ -45,7 +45,7 @@ pip3 install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/
 The interface is built with the [streamlit](https://streamlit.io/) library. To run the interface, you can use the following command:
 
 ```bash
-streamlit run ./HummingBird_prototype/run.py
+streamlit run ./NER-Medical-Document/run.py
 ```
 
 The interface is divided into different components:
@@ -113,7 +113,7 @@ Once the OCR has been performed on the input pdf file, it is time to run the ent
 
 ### Data and Models Details 
 
-- I found some interesting datasets that can be used to finetune pre-trained models. In the `./HummingBird_prototype/data` folder, you can find an interesting dataset: `ddi_description.csv`. For more information about it, you can check out the following documentation I had written, you will find more details in the [OGB section](https://docs.google.com/document/d/1XCyWxpNDX99FOP4nDQKot8jYUEwgRlZuqrAhpBexjDA/edit#heading=h.zcohjqt1zkc8). It contains a plethora of sentences of DDI (drug-drug interactions) with the correponding drugs names in the first 2 columns. The file `data_process.py` is used to transform the data into an appropriate format to be fed into the models later. When executed, it will also split the data and create 3 files: `train.txt`, `dev.txt` and `test.txt`. 
+- I found some interesting datasets that can be used to finetune pre-trained models. In the `./NER-Medical-Document/data` folder, you can find an interesting dataset: `ddi_description.csv`. For more information about it, you can check out the following documentation I had written, you will find more details in the [OGB section](https://docs.google.com/document/d/1XCyWxpNDX99FOP4nDQKot8jYUEwgRlZuqrAhpBexjDA/edit#heading=h.zcohjqt1zkc8). It contains a plethora of sentences of DDI (drug-drug interactions) with the correponding drugs names in the first 2 columns. The file `data_process.py` is used to transform the data into an appropriate format to be fed into the models later. When executed, it will also split the data and create 3 files: `train.txt`, `dev.txt` and `test.txt`. 
 
 - As I mentioned earlier, I used 4 different models (all these models are loaded directly in the `evaluation.py` file): 
 
