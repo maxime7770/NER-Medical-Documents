@@ -114,7 +114,7 @@ Once the OCR has been performed on the input pdf file, it is time to run the ent
 
 ### Data and Models Details 
 
-- I found some interesting datasets that can be used to finetune pre-trained models. In the `./NER-Medical-Document/data` folder, you can find an interesting dataset: `ddi_description.csv`. For more information about it, you can check out the following documentation I had written, you will find more details in the [OGB section](https://docs.google.com/document/d/1XCyWxpNDX99FOP4nDQKot8jYUEwgRlZuqrAhpBexjDA/edit#heading=h.zcohjqt1zkc8). It contains a plethora of sentences of DDI (drug-drug interactions) with the correponding drugs names in the first 2 columns. The file `data_process.py` is used to transform the data into an appropriate format to be fed into the models later. When executed, it will also split the data and create 3 files: `train.txt`, `dev.txt` and `test.txt`. 
+- I found some interesting datasets that can be used to finetune pre-trained models. In the `./NER-Medical-Document/data` folder, you can find an interesting dataset: `ddi_description.csv`. It contains a plethora of sentences of DDI (drug-drug interactions) with the correponding drugs names in the first 2 columns. The file `data_process.py` is used to transform the data into an appropriate format to be fed into the models later. When executed, it will also split the data and create 3 files: `train.txt`, `dev.txt` and `test.txt`. 
 
 - As I mentioned earlier, I used 4 different models (all these models are loaded directly in the `evaluation.py` file): 
 
@@ -148,5 +148,16 @@ Once the OCR has been performed on the input pdf file, it is time to run the ent
 - Other unsolvable higlighting issues and blockers: highlighting one word actually highlights all the occurences of that word, impossible to higlight a sentence which is on multiple lines (have to split the sentences into smaller portions), etc. **That's why it may be better to ignore that part of the prototype and focus on getting relevant results from the models.**
 
 - Again, due to the lack of GPU, the performances may be reduced. If you run the streamlit interface without enough computation power, it might take a while to process large files. I tried, as far as possible, to optimize the code in order to avoid unnecessary loading, or to avoid going through the same sentences multiple times, etc. But it can surely be improved.
+
+
+
+## Interface
+
+
+<p float="left">
+  <img src="./images/interface_1.png" width="300" />
+  <img src="./images/interface_2.png" width="300" /> 
+</p>
+
 
 
