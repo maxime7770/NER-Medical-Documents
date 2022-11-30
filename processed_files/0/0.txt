@@ -1,0 +1,268 @@
+ELSEVIER
+
+Since January 2020 Elsevier has created a COVID-19 resource centre with
+free information in English and Mandarin on the novel coronavirus COVID-
+19. The COVID-19 resource centre is hosted on Elsevier Connect, the
+
+company's public news and information website.
+
+Elsevier hereby grants permission to make all its COVID-19-related
+research that is available on the COVID-19 resource centre - including this
+research content - immediately available in PubMed Central and other
+publicly funded repositories, such as the WHO COVID database with rights
+for unrestricted research re-use and analyses in any form or by any means
+with acknowledgement of the original source. These permissions are
+granted for free by Elsevier for as long as the COVID-19 resource centre
+
+remains active.
+
+American Journal of Emergency Medicine 38 (2020) 2209-2217
+
+Contents lists available at ScienceDirect
+
+American Journal of Emergency Medicine
+
+journal homepage: www.elsevier.com/locate/ajem
+
+Acute chloroquine and hydroxychloroquine toxicity: A review for
+emergency clinicians
+
+Alessandra Della Porta, BS, EMT-B, Kasha Bornstein, MSc Pharm, EMT-P, Austin Coye, BS,
+Tim Montrief, MD, MPH, Brit Long, MD *, Mehruba Anwar Parris, MD
+
+* University of Miami Miller School of Medicine, Miami, Florida, USA
+
+> Department of Emergency Medicine, Jackson Memorial Health System, Miami, Florida, USA
+© Department of Emergency Medicine, Brooke Army Medical Center, San Antonio, TX, USA
+
+« Emergency Department, Jackson South Medical Center, Miami, Florida, USA
+
+ARTICLE INFO ABSTRACT
+
+Background: Acute chloroquine and hydroxychloroquine toxicity is characterized by a combination of direct car-
+diovascular effects and electrolyte derangements with resultant dysrhythmias and is associated with significant
+morbidity and mortality.
+
+Objective: This review describes acute chloroquine and hydroxychloroquine toxicity, outlines the complex path-
+ophysiologic derangements, and addresses the emergency department (ED) management of this patient popu-
+lation.
+
+Article history:
+
+Received 10 June 2020
+
+Received in revised form 11 July 2020
+Accepted 11 July 2020
+
+Ke ‘ds: 5 - . . . ar wee . .
+
+Hydronyeh loroquine Discussion: Chloroquine and hydroxychloroquine are aminoquinoline derivatives widely used in the treatment of
+Chloroquine rheumatologic diseases including systemic lupus erythematosus and rheumatoid arthritis as well as for malaria
+Acute toxicity prophylaxis. In early 2020, anecdotal reports and preliminary data suggested utility of hydroxychloroquine in at-
+
+tenuating viral loads and symptoms in patients with SARS-CoV-2 infection. Aminoquinoline drugs pose unique
+and significant toxicological risks, both during their intended use as well as in unsupervised settings by layper-
+sons. The therapeutic range for chloroquine is narrow. Acute severe toxicity is associated with 10-30% mortality
+owing to a combination of direct cardiovascular effects and electrolyte derangements with resultant dysrhyth-
+mias. Treatment in the ED is focused on decontamination, stabilization of cardiac dysrhythmias, hemodynamic
+support, electrolyte correction, and seizure prevention.
+
+Conclusions: An understanding of the pathophysiology of acute chloroquine and hydroxychloroquine toxicity and
+available emergency treatments can assist emergency clinicians in reducing the immediate morbidity and mor-
+tality associated with this disease.
+
+Aminoquinoline
+
+Published by Elsevier Inc.
+
+1. Introduction chloroquine and hydroxychloroquine exposures reported to U.S. Poison
+
+Control Centers from January 1, 2020 through April 26, 2020, an in-
+
+Chloroquine and hydroxychloroquine are aminoquinoline deriva-
+tives widely used in the treatment of rheumatologic diseases as well
+as for malaria prophylaxis [1]. In early 2020, anecdotal reports and pre-
+liminary data suggested utility of chloroquine and hydroxychloroquine
+for attenuating viral loads and symptoms in patients with severe acute
+respiratory syndrome coronavirus 2 (SARS-CoV-2) infection [2-5]. Clin-
+ical trials are underway to determine treatment protocols, efficacy, and
+optimal dosing for SARS-CoV-2 infection [6]. Shortly following publica-
+tion of initial reports indicating efficacy, cases of acute chloroquine tox-
+icity including inadvertent deaths were reported in the United States
+(U.S.), African, and European newsmedia [7-9]. There were 283
+
+* Corresponding author at: 3841 Roger Brooke Dr, Fort Sam Houston, TX 78234, USA.
+E-mail addresses: brit.long@yahoo.com (B. Long), mehruba.anwar@jhsmiami.org
+(M.A. Parris).
+
+https: //doi.org/10.1016/j.ajem.2020.07.030
+0735-6757/Published by Elsevier Inc.
+
+crease of 42% compared to the same time period during the previous
+year, with a 93% increase during the month of April 2020 when com-
+pared to April 2019 [10]. Aminoquinoline drugs, including chloroquine,
+hydroxychloroquine, and amodiaquine, pose unique and significant
+toxicological risks, both in therapeutic use as well as in unsupervised
+settings by laypersons. For the purposes of this review,
+“aminoquinolines” will refer to chloroquine and hydroxychloroquine.
+The therapeutic margin for chloroquine toxicity is narrow, and acute
+severe toxicity is associated with 10-30% mortality owing to a combina-
+tion of direct cardiovascular effects and electrolyte derangements with
+resultant dysrhythmias [11]. In typical use, aminoquinoline toxicity is
+rarely reported. Fewer than 10 cases of acute severe chloroquine or
+hydroxychloroquine overdoses were reported to U.S. Poison Control
+Centers from 2012 to 2018, and approximately 70 cases of chloroquine
+or hydroxychloroquine overdose were reported in the literature base in
+
+
+A. Della Porta, K. Bornstein, A. Coye et al.
+
+the past decade [12-18]. While commonly prescribed for rheumatologic
+diseases, the novel proposed indication for SARS-CoV-2 infection repre-
+sents an unprecedented expansion of aminoquinoline use in a signifi-
+cantly wider population [6].
+
+As acute aminoquinoline toxicity is rare, contemporary literature on
+management is sparse [19]. Similar to other toxicological emergencies,
+randomized controlled trials and systematic reviews analyzing manage-
+ment approaches are absent. Prospective clinical trials evaluating treat-
+ment are also rare and date back to the 1980s and 1990s [20,21].
+Updated treatment recommendations for aminoquinoline toxicity
+since the development of rescue modalities including intravenous
+lipid emulsion (ILE) and extracorporeal membrane oxygenation
+(ECMO) are lacking [22]. This article reviews the pathophysiology of
+aminoquinoline toxicity to provide guiding principles for management
+of acute complications. Understanding these complications and the ap-
+proach to the management of electrolyte imbalances and hemodynamic
+instability is essential to optimizing patient care, especially following
+acute intoxication that may bring patients to the emergency
+department.
+
+2. Methods
+
+This review provides a focused evaluation of emergency
+department-based evaluation and treatment of aminoquinoline toxic-
+ity. The authors searched PubMed and Google Scholar for articles con-
+taining the key words “hydroxychloroquine” OR “aminoquinoline” OR
+“chloroquine” OR “quinolone” AND “toxicity” OR “poisoning” OR “ad-
+verse effects”. The PubMed search was conducted from database incep-
+tion to April 5, 2020, yielding over 6300 articles. The first 200 articles in
+Google Scholar were also evaluated for inclusion. The literature search
+was restricted to studies published in English, with a focus on emer-
+gency medicine and critical care. Authors evaluated case reports and se-
+ries, retrospective and prospective studies, systematic reviews and
+meta-analyses, and narrative reviews. Authors also reviewed guidelines
+and supporting citations of included articles. Articles were chosen based
+upon author consensus. When available, systematic reviews and meta-
+analyses were preferentially selected. These were followed sequentially
+by randomized controlled trials, prospective studies, retrospective stud-
+ies, case reports, and other narrative reviews, when alternate data were
+not available. A total of 121 articles were selected for inclusion in this
+narrative review.
+
+3. Discussion
+3.1. Proposed aminoquinoline uses in coronavirus infection
+
+Chloroquine and hydroxychloroquine are derivatives of quinine, de-
+rived from the bark of the Peruvian Cinchona tree. Chloroquine was syn-
+thesized in 1934 but shelved for years due to concerns for toxicity in
+human patients. Hydroxychloroquine sulfate was developed in 1946
+in an effort to produce a less toxic chloroquine analog. Animal toxicolog-
+ical studies demonstrate hydroxychloroquine to be approximately 40%
+less toxic than chloroquine [23]. Initially indicated for antimalarial treat-
+ment and prophylaxis, chloroquine and analogs found new anti-
+inflammatory use in World War II. As millions of soldiers used it against
+malaria, military physicians observed improvement in inflammatory ar-
+thritis, leading to trials demonstrating aminoquinoline efficacy for rheu-
+matologic conditions [24]. Antimalarial efficacy of chloroquine waned in
+the late 20th century, though it is still used for malarial prophylaxis in
+regions with susceptible Plasmodium strains. Chloroquine analogues
+have also been found to have metabolic, antithrombotic, antineoplastic,
+and antiviral effects, and have been hypothesized as targeted agents
+against coronavirus infection since the 2003 SARS outbreak [25,26].
+
+Coronavirus disease 2019 (COVID-19), caused by SARS-CoV-2, is re-
+sponsible for a major international pandemic with significant morbidity
+and mortality rates between 1.5 and 9% depending on the population
+
+2210
+
+American Journal of Emergency Medicine 38 (2020) 2209-2217
+
+investigated [27,28]. The pathophysiology of SARS-CoV-2 includes but
+is not limited to cytokine dysregulation, direct cytopathic effects on re-
+spiratory tract epitheliocytes, and down-regulation of lung protective
+angiotensin converting enzyme resulting in diffuse alveolar damage
+and hypercoagulability [29,30]. Viral entry is facilitated by cellular
+protease-primed spike protein binding to angiotensin-converting en-
+zyme 2 (ACE2) receptors [31]. Efforts to repurpose or develop targeted
+therapeutics for SARS-CoV-2 infection have included assessment of
+anti-inflammatory drugs such as corticosteroids and interleukin inhibi-
+tors, macrolide antibiotics such as azithromycin, and direct-acting anti-
+virals such as protease inhibitors and adenosine analogs [6]. The utility
+of aminoquinolines in attenuating infection severity is hypothesized to
+derive from preventing SARS-CoV-2 binding to target receptors and
+inhibiting viral cell entry [6]. Chloroquine and hydroxychloroquine are
+concentrated within the endosome, where they are thought to modu-
+late organelle pH, inhibiting autophagosome formation and impairing
+cleavage of the SARS-CoV-2 spike protein [32]. Additional hypothesized
+immunomodulatory effects in SARS-CoV-2 infection include downregu-
+lation of T-cell response and inflammatory cytokine storm that play a
+role in organ injury and acute respiratory distress syndrome [32,33].
+Preliminary in-vitro data and clinical trials in China and France in
+early 2020 using chloroquine and hydroxychloroquine suggested anti-
+SARS-CoV-2 activity [2,34]. These clinical trials utilized chloroquine at
+dosages and treatment courses greater than those prescribed for anti-
+malarial and rheumatologic indications, raising concern for toxicologi-
+cal implications in susceptible patients. Following the United States
+Food and Drug Administration emergency use authorization for chloro-
+quine and hydroxychloroquine in the treatment of SARS-CoV-2, many
+additional clinical trials with randomization, blinding, and larger sample
+sizes were initiated to determine the benefit and risks. The largest of
+these studies, enrolling over 96,000 patients, initially demonstrated in-
+creased in-hospital mortality rates in patients treated with chloroquine
+or hydroxychloroquine [35]. However, that study has since been
+retracted due to concerns regarding veracity of the data and analyses
+conducted and inability to conduct an independent and private peer re-
+view [36]. Additional studies have demonstrated similar findings of in-
+creased mortality or did not find any evidence of prevention of
+primary endpoints, such as need for mechanical ventilation or death
+in patients treated with aminoquinolines [37-39]. As of June 2020,
+there are over 40 ongoing clinical trials actively assessing the efficacy
+of chloroquine or hydroxychloroquine, demonstrating continued inter-
+est in its role as a therapeutic agent for COVID-19. Furthermore, addi-
+tional trials targeting frontline healthcare workers are underway to
+assess for the possible preventative action of these agents. The use of
+chloroquine or hydroxychloroquine sulfate in combination with other
+novel antiviral agents has been discouraged by the United States Food
+and Drug Administration, as recent in-vitro data demonstrating increas-
+ing concentrations of chloroquine phosphate reduced formation of acti-
+vated remdesivir triphosphate in human bronchial epithelial cells,
+raising concerns that it may reduce the antiviral activity of this medica-
+tion [40]. Widespread non-prescription use of aminoquinolines for ei-
+ther prophylaxis or treatment by laypersons in response to fears of
+COVID-19 raises significant and continued concern for unintended tox-
+icity from overdose and/or drug-drug interactions.
+
+3.2. Chloroquine and hydroxychloroquine toxicology
+
+3.2.1. Metabolism and pharmacokinetics
+
+Despite slight differences in chemical structure, chloroquine and
+hydroxychloroquine are similar in regard to both metabolism and toxic-
+ity [41,42]. Both molecules are highly lipophilic, have a high volume of
+distribution, and have mild-to-moderate protein binding [43,44]. Fol-
+lowing ingestion, the drugs are rapidly absorbed from the upper gastro-
+intestinal (GI) tract and slowly redistribute to other compartments,
+eventually accumulating in erythrocytes, liver, lung, kidney, heart, mus-
+cle, and retinal tissue [43]. The combination of rapid absorption, high
+
+
+Aspirin is most of the time an innocuous drug. There are 2 cats in the kitchen. But it can have deleterious effect if it is administered with a dosage of more than 1000 mg. Some adverse effects are exacerbated for some patients. For instance, if they are more than 70 years old, effects will be more pronounced.
+Some studies have proven the impact of cytoxin on young female patients. Indeed, it can cause nose bleeding when 500mg or more if taken by the patient. This a test sentence.
+In this paper we try to prove how chloroquine can generate negative effects on elderly people. It can in particular causes stomach pain when the maximum 1000mg dosage is not respected. Finally we show that it has no or little effect on younger patients even when they take more than 1000mg.
+Patients with hemoglobin E beta-thalassemia, a severe form of the disease, were found to have impaired hepcidin function and higher TfR1 levels as a result of an increased erythropoietic drive stemming from the continuously failing erythropoiesis that is caused by improper hemoglobin production [56].
+Another study observed a 3-year disease free survival rate of 80 percent, and an overall survival rate of 82 percent in cervical cancer patients.
+A study reported that individuals with hereditary hemochromatosis exhibit an increased risk for developing cancer, particularly in the liver and primarily hepatocellular carcinoma as opposed to biliary tract related cancers.
+Due to oxygen's atomic nature, its reduction must proceed in a stepwise fashion of individual electron additions and reactive intermediates.
+Chloroquine was syn-thesized in 1934 but shelved for years due to concerns for toxicity in human patients.
