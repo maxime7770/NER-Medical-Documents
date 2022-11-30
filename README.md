@@ -1,4 +1,4 @@
-# HummingBird Prototype
+# NER in medical documents
 
 
 ## Installation
