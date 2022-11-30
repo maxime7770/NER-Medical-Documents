@@ -7,7 +7,7 @@ from difflib import SequenceMatcher
 def init_data():
     ''' Rearrange data for further manipulations'''
 
-    df = pd.read_csv('./HummingBird_prototype/data/ddi_description.csv')
+    df = pd.read_csv('./NER-Medical-Document/data/ddi_description.csv')
     name1 = df['first drug name']
     name2 = df['second drug name']
     sentence = df['description']
@@ -91,9 +91,9 @@ def main():
     data.sample(frac=1).reset_index(drop=True) # shuffle the data
 
     ## path to save the txt file.
-    filepath_train = './HummingBird_prototype/data/train.txt'
-    filepath_test = './HummingBird_prototype/data/test.txt'
-    filepath_dev = './HummingBird_prototype/data/dev.txt'
+    filepath_train = './NER-Medical-Document/data/train.txt'
+    filepath_test = './NER-Medical-Document/data/test.txt'
+    filepath_dev = './NER-Medical-Document/data/dev.txt'
     
     ## creating the file.
     length = len(data)
