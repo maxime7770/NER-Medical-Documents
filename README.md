@@ -6,7 +6,7 @@
 
 If you want to execute one of the files, you should do it from the parent directory of this repository. You can for example create a new python environment, place the prototype folder in it, and run it from the environment directory.
 
-Detailed steps to avoid any problem:
+Detailed steps to avoid any problem (some conflicts between packages):
 
 - Create a new folder
 - Create a new env with python 3.9.13: 
@@ -38,6 +38,7 @@ pip3 install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/
 ```
 - And follow the installation instructions here: https://github.com/Belval/pdf2image#how-to-install
 
+- Download the folders from the following link and put them into the repository https://drive.google.com/drive/folders/1OYujpq9qe_0xa7cqiZbZQoEJ-f8aS3kA
 
 ## Usage with Streamlit
 
