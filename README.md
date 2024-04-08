@@ -38,7 +38,7 @@ pip3 install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/
 ```
 - And follow the installation instructions here: https://github.com/Belval/pdf2image#how-to-install
 
-- Download the folders from the following link and put them into the repository https://drive.google.com/drive/u/1/folders/1OxyScAgqzOJ19mbKeSsYOejU33B5cnGm
+- Download the folders from the following link and put them into the repository https://drive.google.com/drive/folders/1l2tFR3twAwfTQfVMGFNDyaALtnv6ogtG
 
 ## Usage with Streamlit
 
