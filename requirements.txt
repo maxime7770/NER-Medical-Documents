@@ -19,3 +19,4 @@ tensorflow
 tensorflow-estimator
 tensorflow-io-gcs-filesystem
 wikipedia==1.4.0
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
